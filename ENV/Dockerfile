@@ -1,0 +1,5 @@
+FROM almalinux:9
+ENV COURSE="DEVOPS"\
+    DURATION="120HRS"\
+    TRAINER="SREEKANRH"
+CMD [ "sleep","1001"]
