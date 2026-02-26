@@ -1,10 +1,10 @@
 FROM almalinux:9
-ENV COURCE="devops"\
+ENV course="devops"\
     duration="120HRS"
 
-ARG TRAINER="sreekanth"
+ARG trainer="sreekanth"
 
-ENV trainer=$TRAINER
+ENV trainer=$trainer
 
 RUN dnf install git  -y 
 
